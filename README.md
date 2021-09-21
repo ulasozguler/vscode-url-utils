@@ -1,6 +1,6 @@
 # vscode-url-utils
 
-Visual Studio Code extension for url stuff.
+Visual Studio Code [extension](https://marketplace.visualstudio.com/items?itemName=ulasozguler.url-utils) for url stuff.
 
 #### Commands and shortcuts
 
