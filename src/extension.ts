@@ -78,9 +78,9 @@ export function activate(context: vscode.ExtensionContext) {
 		context.subscriptions.push(disposable)
 	}
 
-	registerReplacingCmd('urldecode', decodeURI)
+	registerReplacingCmd('urldecode', decodeURIComponent)
 
-	registerReplacingCmd('urlencode', encodeURI)
+	registerReplacingCmd('urlencode', encodeURIComponent)
 
 	registerReplacingCmd('urlparse', (text: string) => {
 		if (!isValidURL(text)) {
